@@ -11,5 +11,5 @@
 
 ## Credits
 
-- [ASHMIT RAI](https://github.com/ashmitisop), The Creator
+- [ASHMIT RAI](https://github.com/ashmitisop) (The Creator) 
 - [AKHIL RAJPUT](https://GitHub.com/AKHIL-SI) 
