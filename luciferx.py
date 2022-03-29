@@ -991,3 +991,98 @@ await kkk.send_file(event.chat_id,
                                   USTAD_PIC,
                                          caption="HA BHAIYA BOLIYE\nMAI TYAR HU💋\n KISKI GAAND MAARNI HAI 🤤🤤 \n"                         
                               )        
+@idk.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@ydk.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@wdk.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@hdk.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@sdk.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@adk.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@bdk.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@cdk.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@edk.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@ddk.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@vkk.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@kkk.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@lkk.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@mkk.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@sid.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@shy.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@aan.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@ake.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@eel.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@khu.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@shi.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@yaa.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@dav.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@raj.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+@put.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
+async def spam(e):
+    usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗦𝗽𝗮𝗺\n\nCommand:\n\n.spam <count> <message to spam>\n\n.spam <count> <reply to a message>\n\nCount must be a integer."
+    error = "Spam Module can only be used till 100 count. For bigger spams use BigSpam."
+    if e.sender_id in SMEX_USERS:
+        if e.text[0].isalpha() and e.text[0] in ("/", "#", "@", "!"):
+            return await e.reply(usage, parse_mode=None, link_preview=None )
+        yukki = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
+        smex = await e.get_reply_message()
+        if len(yukki) == 2:
+            message = str(lucifer[1])
+            counter = int(lucifer[0])
+            if counter > 100:
+                return await e.reply(error, parse_mode=None, link_preview=None )
+            await asyncio.wait([e.respond(message) for i in range(counter)])
+        elif e.reply_to_msg_id and smex.media:  
+            counter = int(lucifer[0])
+            if counter > 100:
+                return await e.reply(error, parse_mode=None, link_preview=None )
+            for _ in range(counter):
+                smex = await e.client.send_file(e.chat_id, smex, caption=smex.text)
+                await gifspam(e, smex)  
+        elif e.reply_to_msg_id and smex.text:
+            message = smex.text
+            counter = int(yukki[0])
+            if counter > 100:
+                return await e.reply(error, parse_mode=None, link_preview=None )
+            await asyncio.wait([e.respond(message) for i in range(counter)])
+        else:
+            await e.reply(usage, parse_mode=None, link_preview=None )
+            @idk.on(events.NewMessage(incoming=True))
+@ydk.on(events.NewMessage(incoming=True))
+@wdk.on(events.NewMessage(incoming=True))
+@hdk.on(events.NewMessage(incoming=True))
+@sdk.on(events.NewMessage(incoming=True))
+@adk.on(events.NewMessage(incoming=True))
+@bdk.on(events.NewMessage(incoming=True))
+@cdk.on(events.NewMessage(incoming=True))
+@edk.on(events.NewMessage(incoming=True))
+@ddk.on(events.NewMessage(incoming=True))
+@vkk.on(events.NewMessage(incoming=True))
+@kkk.on(events.NewMessage(incoming=True))
+@lkk.on(events.NewMessage(incoming=True))
+@mkk.on(events.NewMessage(incoming=True))
+@sid.on(events.NewMessage(incoming=True))
+@shy.on(events.NewMessage(incoming=True))
+@aan.on(events.NewMessage(incoming=True))
+@ake.on(events.NewMessage(incoming=True))
+@eel.on(events.NewMessage(incoming=True))
+@khu.on(events.NewMessage(incoming=True))
+@shi.on(events.NewMessage(incoming=True))
+@yaa.on(events.NewMessage(incoming=True))
+@dav.on(events.NewMessage(incoming=True))
+@raj.on(events.NewMessage(incoming=True))
+@put.on(events.NewMessage(incoming=True))
+
+
+async def _(event):
+    global que
+    queue = que.get(event.sender_id)
+    if not queue:
+        return
+    async with event.client.action(event.chat_id, "typing"):
+        await asyncio.sleep(0.2)
+    async with event.client.action(event.chat_id, "typing"):
+        await event.client.send_message(
+            entity=event.chat_id,
+            message="""{}""".format(random.choice(RRAID)),
+            reply_to=event.message.id,
+        )           
+           
