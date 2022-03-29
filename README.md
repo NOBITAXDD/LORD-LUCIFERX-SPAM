@@ -12,4 +12,4 @@
 ## Credits
 
 - [ASHMIT RAI](https://github.com/ashmitisop), The Creator
-- [AKHIL PARMAR](https://GitHub.com/AKHIL-SI) 
+- [AKHIL RAJPUT](https://GitHub.com/AKHIL-SI) 
