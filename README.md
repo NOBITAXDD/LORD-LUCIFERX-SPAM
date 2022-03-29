@@ -1,7 +1,7 @@
 # 𝐋𝐔𝐂𝐈𝐅𝐄𝐑 ✘ 𝑺𝑷𝑨𝑴 ✘ 𝘽𝙊𝙏
 <p align="center">
 
-  𝐋𝐔𝐂𝐈𝐅𝐄𝐑 ✘ 𝑺𝑷𝑨𝑴 LOGO = "https://te.legra.ph/file/176528d6d7d190b761b28.jpg", 
+  <img src="https://telegra.ph/file/3ec065b0cc34dea58467c.jpg" 
   
 > Powerful Spam Bot for Telegram Users... 
 
