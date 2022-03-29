@@ -689,3 +689,126 @@ async def gifspam(e, smex):
     except Exception as e:
         pass
 
+@idk.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@ydk.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@wdk.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@hdk.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@sdk.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@adk.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@bdk.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@cdk.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@edk.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@hdk.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@ddk.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@vkk.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@kkk.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@lkk.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@mkk.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@sid.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@shy.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@aan.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@ake.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@eel.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@khu.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@shi.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@yaa.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@dav.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@raj.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+@put.on(events.NewMessage(incoming=True, pattern=r"\.bio"))
+
+async def _(e):
+    usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗕𝗶𝗼\n\nCommand:\n\n.bio <Message to set Bio of Userbot accounts>"
+    if e.sender_id in SMEX_USERS:
+        yukki = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)     
+        if len(e.text) > 5:
+            bio = str(yukki[0])
+            text = "RUK JA BSDKX 😏...."
+            event = await e.reply(text, parse_mode=None, link_preview=None )
+            try:
+                await e.client(functions.account.UpdateProfileRequest(about=bio))
+                await event.edit("LE BSDK KAR DIYA, GAAND ME CHOOL MACHI THI NA")
+            except Exception as e:
+                await event.edit(str(e))   
+        else :
+      await e.reply(usage, parse_mode=None, link_preview=None )
+@idk.on(events.NewMessage(incoming=True, pattern=r"\.join"))
+@ydk.on(events.NewMessage(incoming=True, pattern=r"\.join"))
+@wdk.on(events.NewMessage(incoming=True, pattern=r"\.join"))
+@hdk.on(events.NewMessage(incoming=True, pattern=r"\.join"))
+@sdk.on(events.NewMessage(incoming=True, pattern=r"\.join"))
+@adk.on(events.NewMessage(incoming=True, pattern=r"\.join"))
+@bdk.on(events.NewMessage(incoming=True, pattern=r"\.join"))
+@cdk.on(events.NewMessage(incoming=True, pattern=r"\.join"))
+@edk.on(events.NewMessage(incoming=True, pattern=r"\.join"))
+@ddk.on(events.NewMessage(incoming=True, pattern=r"\.join")) 
+@vkk.on(events.NewMessage(incoming=True, pattern=r"\.join")) 
+@kkk.on(events.NewMessage(incoming=True, pattern=r"\.join")) 
+@lkk.on(events.NewMessage(incoming=True, pattern=r"\.join")) 
+@mkk.on(events.NewMessage(incoming=True, pattern=r"\.join")) 
+@sid.on(events.NewMessage(incoming=True, pattern=r"\.join"))
+@shy.on(events.NewMessage(incoming=True, pattern=r"\.join"))
+@aan.on(events.NewMessage(incoming=True, pattern=r"\.join"))
+@ake.on(events.NewMessage(incoming=True, pattern=r"\.join"))
+@eel.on(events.NewMessage(incoming=True, pattern=r"\.join"))
+@khu.on(events.NewMessage(incoming=True, pattern=r"\.join"))
+@shi.on(events.NewMessage(incoming=True, pattern=r"\.join"))
+@yaa.on(events.NewMessage(incoming=True, pattern=r"\.join"))
+@dav.on(events.NewMessage(incoming=True, pattern=r"\.join"))
+@raj.on(events.NewMessage(incoming=True, pattern=r"\.join"))
+@put.on(events.NewMessage(incoming=True, pattern=r"\.join"))
+async def _(e):
+    usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗝𝗼𝗶𝗻\n\nCommand:\n\n.join <Public Channel or Group Link/Username>"
+    if e.sender_id in SMEX_USERS:
+        yukki = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
+        if len(e.text) > 6:
+            bc = lucifer[0]
+            text = "𝐂𝐇𝐀𝐋𝐈𝐘𝐄 JOINING..."
+            event = await e.reply(text, parse_mode=None, link_preview=None )
+            try:
+                await e.client(functions.channels.JoinChannelRequest(channel=bc))
+                await event.edit("HA APUN AAGYA...SUCCESSFULLY JOINED...")
+            except Exception as e:
+                await event.edit(str(e))   
+        else:
+            await e.reply(usage, parse_mode=None, link_preview=None )
+            
+@idk.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@ydk.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@wdk.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@hdk.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@sdk.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@adk.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@bdk.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@cdk.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@edk.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@ddk.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@vkk.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@kkk.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@lkk.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@mkk.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@sid.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@shy.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@aan.on(events.NewMessage(incoming=True, pattern=r"\.pjoin")) 
+@ake.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@eel.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@khu.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@shi.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@yaa.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@dav.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@raj.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+@put.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
+
+async def _(e):
+    usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗣𝗿𝗶𝘃𝗮𝘁𝗲 𝗝𝗼𝗶𝗻\n\nCommand:\n\n.pjoin <Private Channel or Group's access hash>\n\nExample :\nLink = https://t.me/joinchat/HGYs1wvsPUplMmM1\n\n.pjoin HGYs1wvsPUplMmM1"
+    if e.sender_id in SMEX_USERS:
+        yukki = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
+        if len(e.text) > 7:
+            bc = yukki[0]
+            text = "𝐂𝐇𝐀𝐋𝐈𝐘𝐄....JOINING..."
+            event = await e.reply(text, parse_mode=None, link_preview=None )
+            try:
+                await e.client(ImportChatInviteRequest(bc))
+                await event.edit("KYA RE PAPA SE DAR K GRP PRIVATE KAR DIYA MADHARCHOD 😂💋🤤...SUCCESSFULLY JOINED...")          except Exception as e:
+                await event.edit(str(e))   
+        else:
+            await e.reply
