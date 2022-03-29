@@ -1,18 +1,9 @@
-# 
-,<h1 align="center">
-
-  <b>  ⚔️𝐋𝐔𝐂𝐈𝐅𝐄𝐑 ✘ 𝑺𝑷𝑨𝑴 ✘ 𝘽𝙊𝙏 ⚔️ </b>
-</h1>
-
+# 𝐋𝐔𝐂𝐈𝐅𝐄𝐑 ✘ 𝑺𝑷𝑨𝑴 ✘ 𝘽𝙊𝙏
 <p align="center">
 
-  <img src="https://te.legra.ph/file/176528d6d7d190b761b28.jpg" alt="🚩𝐔𝐑𝐀𝐍𝐈𝐔𝐌 𝐱 𝐒𝐏𝐀𝐌𝐁𝐎𝐓🚩">
-
-</p>
-
-</h1>
-  > Powerful Spam Bot for Telegram Users... 
-
+  <img src="https://te.legra.ph/file/176528d6d7d190b761b28.jpg", 
+  
+> Powerful Spam Bot for Telegram Users... 
 
 ## DEPLOY 𝐋𝐔𝐂𝐈𝐅𝐄𝐑 ✘ 𝑺𝑷𝑨𝑴 ON HEROKU
 
@@ -20,5 +11,5 @@
 
 ## Credits
 
-- [ASMIT RAI](https://github.com/ashmitisop), THE CREATOR
+- [ASHMIT RAI](https://github.com/ashmitisop), The Creator
 - [AKHIL PARMAR](https://GitHub.com/AKHIL-SI) 
