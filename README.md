@@ -1,4 +1,4 @@
-# 𝐋𝐔𝐂𝐈𝐅𝐄𝐑 ✘ 𝑺𝑷𝑨𝑴 ✘ 𝘽𝙊𝙏
+# 𝐋𝐔𝐂𝐈𝐅𝐄𝐑 ✘ 𝑺𝑷𝑨𝑴𝘽𝙊𝙏
 <p align="center">
 
   [![TOOFANBOT](https://te.legra.ph/file/176528d6d7d190b761b28.jpg)](https://t.me/LORD_LUCIFER_FANS_CLUB)
