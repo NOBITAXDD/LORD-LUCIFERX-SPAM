@@ -1,7 +1,7 @@
 {
   "name": "LORD LUCIFER SPAM",
   "description": "THE UNBEATABLE SPAM BOT.👿💋",
-  "logo": "",
+  "logo": "https://te.legra.ph/file/176528d6d7d190b761b28.jpg",
   "keywords": [
     "spambot",
     "telegram",
@@ -149,7 +149,7 @@
       "SUDO": {
         "description": "Sudo Users Id",
         "value": "5216869404",
-        "required": true
+        "required": false
       }
   },
   "addons": [{
